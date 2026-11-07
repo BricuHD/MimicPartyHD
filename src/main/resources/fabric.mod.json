@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mimicparty",
+  "version": "${version}",
+  "name": "Mimic Party",
+  "description": "A multiplayer party-game framework for Minecraft Java 1.21.11.",
+  "authors": ["MimicParty"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.mimicparty.MimicPartyMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
